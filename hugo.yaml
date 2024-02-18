@@ -1,7 +1,92 @@
-baseURL: http://example.org/
+baseURL: https://crash-lang.org
 languageCode: en-us
-title: My New Hugo Site
+title: Crash Programming Language
 
-module:
-  imports:
-    - path: github.com/imfing/hextra
+theme: hextra
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  de:
+    languageName: Deutsch
+    weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    noClasses: false
+
+menu:
+  main:
+    - identifier: install
+      name: Install
+      pageRef: /install
+      weight: 1
+    - identifier: documentation
+      name: Documentation
+      pageRef: /docs
+      weight: 2
+    - identifier: coc
+      name: Code of Conduct
+      url: "https://github.com/crash-lang/crash/blob/main/CODE_OF_CONDUCT.md"
+      weight: 3
+    - name: Search
+      params:
+        type: search
+      weight: 20
+    - name: Github
+      weight: 50
+      url: "https://github.crash-lang.org"
+      params:
+        icon: github
+    - name: Discord
+      weight: 51
+      url: "https://discord.crash-lang.org"
+      params:
+        icon: discord
+
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: github
+      name: Github
+      url: "https://github.crash-lang.org"
+      weight: 2
+
+params:
+  description: Official Crash Programming Language website.
+
+  navbar:
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: https://raw.githubusercontent.com/crash-lang/branding/main/logo/logo_red.svg
+      width: 55rem
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
+
+  page:
+    width: wide
+
+  editURL:
+    enable: false
+    base: ""
+
+  theme:
+    default: system
+    displayToggle: true

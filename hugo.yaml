@@ -87,8 +87,8 @@ params:
     width: wide
 
   editURL:
-    enable: false
-    base: ""
+    enable: true
+    base: "https://github.com/crash-lang/website/edit/main/"
 
   theme:
     default: system

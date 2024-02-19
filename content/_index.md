@@ -21,8 +21,8 @@ reliable software without crashing their brains.
 </div>
 
 <div class="mb-6">
-{{< hextra/hero-button text="Installation" link="install" >}}
-{{< hextra/hero-button text="Documentation" link="docs" >}}
+{{< hero-button-primary text="Installation" link="install" >}}
+{{< hero-button-secondary text="Documentation" link="docs" >}}
 </div>
 <!--
 <div class="mt-6"></div>

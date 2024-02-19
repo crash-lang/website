@@ -20,7 +20,5 @@
         {{- partial "language-switch.html" (dict "context" .) -}}
         {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
     </div>
-    {{- if or site.IsMultiLingual $displayThemeToggle -}}
-    {{- end -}}
     {{- end -}}
 </footer>

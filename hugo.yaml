@@ -87,15 +87,15 @@ params:
     width: wide
 
   editURL:
-    enable: true
-    base: "https://github.com/crash-lang/website/edit/main/content/"
+    enable: false
+    base: "https://github.com/crash-lang/website/edit/main/content"
 
   theme:
     default: system
     displayToggle: true
 
   comments:
-    enable: true
+    enable: false
     type: giscus
 
     giscus:
@@ -103,6 +103,5 @@ params:
       repoId: "R_kgDOLULgww"
       category: General
       categoryId: "DIC_kwDOLULgw84CdWOR"
-      lang: en
       mapping: pathname
 

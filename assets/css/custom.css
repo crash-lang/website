@@ -15,16 +15,20 @@
     src: url("./fonts/Poppins-VariableFont.ttf");
 }
 
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
 /* Make scrollbar invisible scrollbar, but still usable */
 html {
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
     width: 0;
     background: transparent;
 }
-
 
 h1, .content h1,
 .content h2,
@@ -63,4 +67,29 @@ h1, .content h1,
 .btn-secondary,
 .btn-primary  {
     border-radius: 0;
+}
+
+/* Hero buttons */
+.btn-primary {
+    background-color: #F9844A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    font-weight: bold;
+}
+
+html[class~="dark"] .btn-primary {
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #F94144;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #577590;
+    color: white;
 }

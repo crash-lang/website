@@ -24,7 +24,7 @@ reliable software without crashing their brains.
 {{< hextra/hero-button text="Installation" link="install" >}}
 {{< hextra/hero-button text="Documentation" link="docs" >}}
 </div>
-Hey
+<!--
 <div class="mt-6"></div>
 {{< hextra/feature-grid >}}
 
@@ -77,3 +77,4 @@ style="background: radial-gradient(ellipse at 90% 80%,rgba(77, 144, 142,0.15),hs
 
 
 {{< /hextra/feature-grid >}}
+-->

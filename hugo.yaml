@@ -88,7 +88,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/crash-lang/website/edit/main/"
+    base: "https://github.com/crash-lang/website/edit/main/content/"
 
   theme:
     default: system

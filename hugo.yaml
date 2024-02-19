@@ -30,18 +30,15 @@ markup:
 menu:
   main:
     - identifier: install
-      name: Install
       pageRef: /install
       weight: 1
     - identifier: documentation
-      name: Documentation
       pageRef: /docs
       weight: 2
     - identifier: policies
-      name: Policies
       pageRef: /policies
       weight: 3
-    - name: Search
+    - identifier: search
       params:
         type: search
       weight: 20

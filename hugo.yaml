@@ -60,7 +60,7 @@ menu:
         type: separator
       weight: 1
     - identifier: github
-      name: Github
+      name: GitHub
       url: "https://github.crash-lang.org"
       weight: 2
 
@@ -93,3 +93,14 @@ params:
   theme:
     default: system
     displayToggle: true
+
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: crash-lang/website
+      repoId: 759357635
+      category: General
+      categoryId: DIC_kwDOLULgw84CdWOR
+      lang: en

@@ -100,9 +100,9 @@ params:
 
     giscus:
       repo: crash-lang/website
-      repoId: 759357635
+      repoId: "R_kgDOLULgww"
       category: General
-      categoryId: DIC_kwDOLULgw84CdWOR
+      categoryId: "DIC_kwDOLULgw84CdWOR"
       lang: en
       mapping: pathname
 

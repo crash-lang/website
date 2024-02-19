@@ -104,3 +104,5 @@ params:
       category: General
       categoryId: DIC_kwDOLULgw84CdWOR
       lang: en
+      mapping: pathname
+

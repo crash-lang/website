@@ -24,7 +24,7 @@ reliable software without crashing their brains.
 {{< hextra/hero-button text="Installation" link="install" >}}
 {{< hextra/hero-button text="Documentation" link="docs" >}}
 </div>
-
+Hey
 <div class="mt-6"></div>
 {{< hextra/feature-grid >}}
 

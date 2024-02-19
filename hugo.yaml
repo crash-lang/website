@@ -15,9 +15,9 @@ languages:
   en:
     languageName: English
     weight: 1
-  de:
-    languageName: Deutsch
-    weight: 2
+#  de:
+#    languageName: Deutsch
+#    weight: 2
 
 markup:
   goldmark:

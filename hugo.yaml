@@ -49,7 +49,7 @@ menu:
         icon: github
     - name: Discord
       weight: 51
-      url: "https://discord.crash-lang.org"
+      url: "https://dc.crash-lang.org"
       params:
         icon: discord
 

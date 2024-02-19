@@ -2,7 +2,7 @@
 weight: 1
 title: The Crash Code of Conduct
 linkTitle: "Code of Conduct"
-comment: false
+comments: false
 ---
 
 ## Our Pledge

@@ -1,7 +1,7 @@
 ---
 weight: 3
 title: Logo Policy
-comment: false
+comments: false
 ---
 
 ## Art License

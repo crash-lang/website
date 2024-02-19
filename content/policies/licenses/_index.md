@@ -1,7 +1,7 @@
 ---
 weight: 2
 title: Licenses
-comment: false
+comments: false
 ---
 
 The Crash Programming Language and all other official projects, 

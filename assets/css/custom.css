@@ -15,6 +15,17 @@
     src: url("./fonts/Poppins-VariableFont.ttf");
 }
 
+/* Make scrollbar invisible scrollbar, but still usable */
+html {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+
 h1, .content h1,
 .content h2,
 .content h3 {

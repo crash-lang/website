@@ -1,0 +1,26 @@
+{{- $enableFooterSwitches := .Scratch.Get "enableFooterSwitches" | default false -}}
+{{- $displayThemeToggle := site.Params.theme.displayToggle | default true -}}
+
+{{- $copyright := (T "copyright") | default "© 2023 Hextra." -}}
+{{- $poweredBy := (T "poweredBy") | default "Powered by Hextra" -}}
+
+{{- $footerWidth := "max-w-screen-xl" -}}
+{{- with .Site.Params.footer.width -}}
+{{ if eq . "wide" -}}
+{{ $footerWidth = "max-w-[90rem]" -}}
+{{ else if eq . "full" -}}
+{{ $footerWidth = "max-w-full" -}}
+{{ end -}}
+{{- end -}}
+
+
+<footer class="hextra-footer bg-gray-100 pb-[env(safe-area-inset-bottom)] dark:bg-neutral-900 print:bg-transparent">
+    {{- if $enableFooterSwitches -}}
+    <div class="mx-auto flex gap-2 py-2 px-4 {{ $footerWidth }}">
+        {{- partial "language-switch.html" (dict "context" .) -}}
+        {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
+    </div>
+    {{- if or site.IsMultiLingual $displayThemeToggle -}}
+    {{- end -}}
+    {{- end -}}
+</footer>

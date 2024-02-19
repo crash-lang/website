@@ -1,0 +1,55 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/PlusJakartaSans-Bold.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    url('./fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/Poppins-VariableFont.ttf");
+}
+
+h1, .content h1,
+.content h2,
+.content h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.content p,
+.content li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 110%;
+}
+
+.hextra-feature-card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 103%;
+}
+
+.content a {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Remove round edges */
+.rounded,
+.rounded-xl,
+.rounded-3xl,
+.rounded-lg,
+.rounded-md,
+.rounded-sm,
+.code-block pre:not(.lntable pre),
+.code-block .filename,
+.chroma .lntable,
+.content img,
+.content div.gist-file,
+.btn-secondary,
+.btn-primary  {
+    border-radius: 0;
+}

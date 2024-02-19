@@ -74,10 +74,12 @@ h1, .content h1,
     background-color: #F9844A;
     text-decoration: none;
     font-weight: bold;
+    margin-bottom: 0.6rem;
 }
 
 .btn-secondary {
     font-weight: bold;
+    margin-bottom: 0.6rem;
 }
 
 html[class~="dark"] .btn-primary {

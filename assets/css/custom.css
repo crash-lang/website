@@ -62,11 +62,15 @@ h1, .content h1,
 .code-block pre:not(.lntable pre),
 .code-block .filename,
 .chroma .lntable,
-.content img,
 .content div.gist-file,
 .btn-secondary,
 .btn-primary  {
     border-radius: 0;
+}
+
+/* Add round edges to hero feature-card pictures */
+.hextra-feature-card img {
+    border-radius: 3%;
 }
 
 /* Hero buttons */

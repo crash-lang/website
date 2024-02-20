@@ -53,16 +53,16 @@ menu:
       params:
         icon: discord
 
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
-    - identifier: github
-      name: GitHub
-      url: "https://github.crash-lang.org"
-      weight: 2
+  #sidebar:
+    #    - identifier: more
+  #      name: More
+  #      params:
+  #        type: separator
+  #      weight: 1
+  #    - identifier: github
+  #      name: GitHub
+  #      url: "https://github.crash-lang.org"
+  #      weight: 2
 
 params:
   description: Official Crash Programming Language website.

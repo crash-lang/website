@@ -24,7 +24,7 @@ reliable software without crashing their brains.
 {{< hero-button-primary text="Installation" link="install" >}}
 {{< hero-button-secondary text="Documentation" link="docs" >}}
 </div>
-<!--
+
 <div class="mt-6"></div>
 {{< hextra/feature-grid >}}
 
@@ -32,7 +32,7 @@ reliable software without crashing their brains.
 title="Get started"
 subtitle="Install Crash on your system and let's start to code!"
 class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-image="images/hextra-doc.webp"
+image="images/hero-get-started.png"
 imageClass="top-[40%] left-[24px] w-[180%] sm:w-[110%] dark:opacity-80"
 style="background: radial-gradient(ellipse at 90% 80%,rgba(249, 65, 68,0.15),hsla(0,0%,100%,0));"
 link="install"
@@ -40,23 +40,26 @@ link="install"
 
 {{< hextra/feature-card
 title="Learn"
-subtitle="Unlock the power of Crash by reading our documentation."
+subtitle="Unlock the power of Crash by reading our learn-guide."
 class="aspect-auto md:aspect-[1.1/1] max-lg:min-h-[340px]"
-image="images/hextra-markdown.webp"
 imageClass="top-[40%] left-[36px] w-[180%] sm:w-[110%] dark:opacity-80"
 style="background: radial-gradient(ellipse at 90% 80%,rgba(243, 114, 44,0.15),hsla(0,0%,100%,0));"
 link="docs/learn"
 >}}
 
+<!--image="images/hero-learn.webp"-->
+
 {{< hextra/feature-card
-title="Full Text Search"
-subtitle="Built-in full text search with FlexSearch, no extra setup required."
+title="Contributing"
+subtitle="Help us to make Crash better!"
 class="aspect-auto md:aspect-[1.1/1] max-md:min-h-[340px]"
-image="images/hextra-search.webp"
+image="images/hero-contribute.png"
 imageClass="top-[40%] left-[36px] w-[110%] sm:w-[110%] dark:opacity-80"
 style="background: radial-gradient(ellipse at 90% 80%,rgba(248, 150, 30,0.15),hsla(0,0%,100%,0));"
+link="docs/contribute"
 >}}
 
+<!--
 {{< hextra/feature-card
 title="Lightweight as a Feather"
 subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
@@ -74,7 +77,6 @@ title="Build and Host for Free"
 subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
 style="background: radial-gradient(ellipse at 90% 80%,rgba(77, 144, 142,0.15),hsla(0,0%,100%,0));"
 >}}
-
+-->
 
 {{< /hextra/feature-grid >}}
--->
